@@ -1,4 +1,4 @@
-* Cross compile rust to linux on Apple Silicon
+# Cross compile rust to linux on Apple Silicon
 1. Add _Dockerfile_ and _rustbuild.sh_ to project
 2. Run docker build -t dkr .
 3. Run docker run -v $PWD:/usr/src/dkr --rm --name dkr dkr 
